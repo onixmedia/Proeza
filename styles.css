@@ -1,13 +1,15 @@
 p {
-	font-size: 18px;
-	line-height: 24px;
-	color: #69737A;
-	padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #69737A;
+  padding-bottom: 10px;
+  font-family: 'Gotham-Light';
 }
 h1{
     font-size:48px;
-    font-family: 'Gotham-Light';
+    font-family: 'GothamExLight';
     color: #ffffff;
+    line-height: 50px;
 }
 h3{
     font-size:33px;
@@ -16,63 +18,74 @@ h3{
 }
 h4{
     font-size:18px;
-    font-family: 'Gotham-Light';
+    font-family: 'Gotham-Book';
     color: #E32237;
 }
 .p-titulo{
-	font-size: 22px;
-	color: #69737A;
-	font-family: 'Gotham-Book';
+  font-size: 22px;
+  color: #69737A;
+  font-family: 'Gotham-Book';
 }
 .parrafo-imagen {
-	color: #ffffff;
-	font-family: 'Gotham-Light';
+  color: #ffffff;
+  font-family: 'Gotham-Light';
 }
 .h3-parrafo {
     color: white;
     text-shadow: 0 0 5px #4A4A4A;
     font-size: 21px;
     font-family: 'Gotham-Book';
-    line-height: 22px;
+    line-height: 26px;
 }
 .block-principal {
-	height: 100%;
+  height: 100%;
 }
 .contenido-general {
-  	border-radius: 10px 0px 10px;
-  	background: #5E808D;
-  	width: 100%;
-  	height: 100%;
+    border-radius: 10px 0px 10px;
+    background: #5E808D;
+    width: 100%;
+    height: 100%;
 }
 .contenido-superior {
-  	border-radius: 10px 0px 0px;
-  	background: #B0B7BB;
-  	width: 100%;
-  	height: 80%;
+    border-radius: 10px 0px 0px;
+    background: #B0B7BB;
+    width: 100%;
+    height: 80%;
+}
+.contenido-superior h1 {
+    font-family: 'GothamExLight';
+    font-size: 42px;
+}
+.contenido-superior h1 {
+    font-family: 'GothamExLight';
+    font-size: 42px;
 }
 .contenido-inferior{
-  	border-radius: 0px 0px 10px 0px;
-  	background: #C8CED2;
-  	width: 100%;
-  	height: 20%;
+    border-radius: 0px 0px 10px 0px;
+    background: #C8CED2;
+    width: 100%;
+    height: 20%;
+}
+.block-secundario {
+  padding: 30px 50px;
 }
 .line {
-	border-top: 1px solid #ffffff;
-	width: 100px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+  border-top: 1px solid #ffffff;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .listas-bullets{
-	color: #E32237;
+  color: #E32237;
 }
 .listas-bullets p {
-	color: #ffffff;
+  color: #ffffff;
 }
 .listas-continuas li {
-	width: 20%;
-	float: left;
-	text-align: center;
-	list-style: none !important;
+  width: 20%;
+  float: left;
+  text-align: center;
+  list-style: none !important;
 }
 .contenido-listas {
     width: 100%;
@@ -80,16 +93,16 @@ h4{
     overflow: hidden;
 }
 .h1-gradiente {
-	font-size: 50px;
-	font-family: 'Gotham-Bold';
-	line-height: 50px;
-	background: #1B4092; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #00B6FF, #1B4092); /* Standard syntax */
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-family: 'Gotham-Bold';
+  line-height: 50px;
+  background: #1B4092; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #00B6FF, #1B4092); /* Standard syntax */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
  }
 .line-gradiente {
     height: 1px;
@@ -101,55 +114,58 @@ h4{
     margin-top: 20px;
 }
 .h3-gradiente {
-	font-size: 24px;
-	font-family: 'Gotham-Light';
-	background: #1B4092; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #00B6FF, #1B4092); /* Standard syntax */
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-family: 'Gotham-Light';
+  background: #1B4092; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #00B6FF, #1B4092); /* Standard syntax */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
  }
   .boton-principal {
-   	border-radius: 10px 0px 10px;
-  	background: #E32237;
-  	border: 0px;
-  	font-family: 'Gotham-Bold';
-  	color: #FFFFFF;
-  	font-size: 14px;
-  	padding: 10px;
-  	transition: all 0.5s ease;
+    border-radius: 10px 0px 10px;
+    background: #E32237;
+    border: 0px;
+    font-family: 'Gotham-Bold';
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px;
+    transition: all 0.5s ease;
 }
   .boton-principal a {
-   	border-radius: 10px 0px 10px;
-  	background: #E32237;
-  	border: 0px;
-  	font-family: 'Gotham-Bold';
-  	color: #FFFFFF;
-  	font-size: 14px;
-  	padding: 10px;
+    border-radius: 10px 0px 10px;
+    background: #E32237;
+    border: 0px;
+    font-family: 'Gotham-Bold';
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px;
 }
 .boton-principal:hover {
-	border-radius: 10px 0px 10px;
-	background: #B5171B;
-	border: 0px;
-	font-family: 'Gotham-Bold';
-	color: #FFFFFF;
-	font-size: 14px;
-	padding: 10px;
+  border-radius: 10px 0px 10px;
+  background: #B5171B;
+  border: 0px;
+  font-family: 'Gotham-Bold';
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 10px;
 }
  .boton-invertido {
-  	background: #FFFFFF;
-  	color: #E32237;
+    background: #FFFFFF;
+    color: #E32237;
+}
+.div-shadow {
+    box-shadow: 2px 4px 6px #B4B4B7;
 }
 
 
 /* JC*/
 .titleStage{
-	font-size: 64px;
-	color: white;
-	font-family: 'Gotham-Light';
+  font-size: 64px;
+  color: white;
+  font-family: 'Gotham-Light';
 }
 .titleSection{
   position: relative;
@@ -171,22 +187,22 @@ h4{
   margin-left: -50px;
 }
 .bsn-opp{
-	display: block;
-	float: left;
-	margin-left: 1%;
-	width: 19%;
+  display: block;
+  float: left;
+  margin-left: 1%;
+  width: 19%;
 }
 
 .logo-bsn-opp{
-	border-radius: 10px 0 0 0;
-	text-align: center;
-	padding: 20px;
+  border-radius: 10px 0 0 0;
+  text-align: center;
+  padding: 20px;
 }
 .logo-bsn-opp img{
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 .logo-bsn-opp[data-color='blue']{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36b2ff+0,253893+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36b2ff+0,253893+100 */
 background: #36b2ff; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #36b2ff 0%, #253893 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg,  #36b2ff 0%,#253893 100%); /* Chrome10-25,Safari5.1-6 */
@@ -195,15 +211,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b2ff', end
 }
 
 .logo-bsn-opp[data-color='green']{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#80b846+0,00703c+98 */
-	background: #80b846; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #80b846 0%, #00703c 98%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg,  #80b846 0%,#00703c 98%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg,  #80b846 0%,#00703c 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80b846', endColorstr='#00703c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#80b846+0,00703c+98 */
+  background: #80b846; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #80b846 0%, #00703c 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #80b846 0%,#00703c 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #80b846 0%,#00703c 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80b846', endColorstr='#00703c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .logo-bsn-opp[data-color='iceblue']{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b8ff+0,0075bd+98 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b8ff+0,0075bd+98 */
 background: #00b8ff; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #00b8ff 0%, #0075bd 98%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg,  #00b8ff 0%,#0075bd 98%); /* Chrome10-25,Safari5.1-6 */
@@ -211,7 +227,7 @@ background: linear-gradient(135deg,  #00b8ff 0%,#0075bd 98%); /* W3C, IE10+, FF1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8ff', endColorstr='#0075bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .logo-bsn-opp[data-color='yellow']{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff774+0,cda73b+98 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff774+0,cda73b+98 */
 background: #fff774; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #fff774 0%, #cda73b 98%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg,  #fff774 0%,#cda73b 98%); /* Chrome10-25,Safari5.1-6 */
@@ -219,7 +235,7 @@ background: linear-gradient(135deg,  #fff774 0%,#cda73b 98%); /* W3C, IE10+, FF1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff774', endColorstr='#cda73b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .logo-bsn-opp[data-color='orange']{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9a30+0,ff8120+99 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9a30+0,ff8120+99 */
 background: #ff9a30; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #ff9a30 0%, #ff8120 99%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg,  #ff9a30 0%,#ff8120 99%); /* Chrome10-25,Safari5.1-6 */
@@ -228,37 +244,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
 }
 
 .img-bsn-opp{
-	text-align: center;
-	height: 107px;
-	width: 100%;
+  text-align: center;
+  height: 107px;
+  width: 100%;
 }
 .img-bsn-opp img{
-	width: 100% !important;
+  width: 100% !important;
 }
 
 .txt-bsn-opp p{
-	padding-top: 15px;
-	font-size: 14px;
-	color:#69737A;
+  padding-top: 15px;
+  font-size: 14px;
+  color:#69737A;
   font-family: 'GothamExLight';
 }
 .presenciah1{
     font-size:72px;
     font-family: 'Gotham-Light';
     color: #ffffff;
-	margin-top: 10px;
-	padding-bottom: 15px;
+  margin-top: 10px;
+  padding-bottom: 15px;
 }
 .presenciap{
-  	font-size: 33px;
-  	line-height: 33px;
-  	color: #A98206;
-  	padding-top: 30px;
+    font-size: 33px;
+    line-height: 33px;
+    color: #A98206;
+    padding-top: 30px;
 }
 .estilo-nuevo{
   margin: 20px;
 }
 
 .estilo-mas-nuevo{
-	margin: 70px;
+  margin: 70px;
 }
