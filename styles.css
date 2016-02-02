@@ -51,6 +51,7 @@ h4{
     background: #B0B7BB;
     width: 100%;
     height: 80%;
+    padding: 30px 50px;
 }
 .contenido-superior h1 {
     font-family: 'GothamExLight';
@@ -65,9 +66,7 @@ h4{
     background: #C8CED2;
     width: 100%;
     height: 20%;
-}
-.block-secundario {
-  padding: 30px 50px;
+    padding: 30px 50px;
 }
 .line {
   border-top: 1px solid #ffffff;
@@ -126,34 +125,45 @@ h4{
  }
   .boton-principal {
     border-radius: 10px 0px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #E32237;
     border: 0px;
     font-family: 'Gotham-Bold';
     color: #FFFFFF;
     font-size: 14px;
-    padding: 10px;
     transition: all 0.5s ease;
 }
   .boton-principal a {
     border-radius: 10px 0px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #E32237;
     border: 0px;
     font-family: 'Gotham-Bold';
     color: #FFFFFF;
     font-size: 14px;
-    padding: 10px;
 }
 .boton-principal:hover {
   border-radius: 10px 0px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #B5171B;
   border: 0px;
   font-family: 'Gotham-Bold';
   color: #FFFFFF;
   font-size: 14px;
-  padding: 10px;
 }
  .boton-invertido {
     background: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #E32237;
 }
 .div-shadow {
