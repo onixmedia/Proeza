@@ -41,37 +41,38 @@ h4{
     font-family: 'Gotham-Book';
     line-height: 26px;
 }
-.block-principal {
-  height: 100%;
+.block-unete{
+  background: #B0B7BB;
+  border-radius: 10px 0px 10px 0;
+  width: 100%;
 }
+.block-unete .block-top {
+    padding: 30px 50px;
+    width: 100%;
+}
+.block-unete .block-top h1 {
+    font-family: 'GothamExLight';
+    font-size: 42px;
+}
+.block-unete .block-top h3{
+  font-size: 24px;
+  font-family: 'GothamExLight';
+  color: #E0E0E0;
+}
+.block-unete .block-bottom{
+    background: #C8CED2;
+    width: 100%;
+    padding: 30px 50px;
+    border-radius: 0px 0px 10px 0;
+}
+
 .contenido-general {
     border-radius: 10px 0px 10px;
     background: #5E808D;
     width: 100%;
     height: 100%;
 }
-.contenido-superior {
-    border-radius: 10px 0px 0px;
-    background: #B0B7BB;
-    width: 100%;
-    height: 80%;
-    padding: 30px 50px;
-}
-.contenido-superior h1 {
-    font-family: 'GothamExLight';
-    font-size: 42px;
-}
-.contenido-superior h1 {
-    font-family: 'GothamExLight';
-    font-size: 42px;
-}
-.contenido-inferior{
-    border-radius: 0px 0px 10px 0px;
-    background: #C8CED2;
-    width: 100%;
-    height: 20%;
-    padding: 30px 50px;
-}
+
 .line {
   border-top: 1px solid #ffffff;
   width: 100px;
@@ -127,12 +128,10 @@ h4{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
+
   .boton-principal {
     border-radius: 10px 0px 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 20px;
     background: #E32237;
     border: 0px;
     font-family: 'Gotham-Bold';
@@ -140,24 +139,10 @@ h4{
     font-size: 14px;
     transition: all 0.5s ease;
 }
-  .boton-principal a {
-    border-radius: 10px 0px 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: #E32237;
-    border: 0px;
-    font-family: 'Gotham-Bold';
-    color: #FFFFFF;
-    font-size: 14px;
-}
+
 .boton-principal:hover {
   border-radius: 10px 0px 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 20px;
   background: #B5171B;
   border: 0px;
   font-family: 'Gotham-Bold';
@@ -277,23 +262,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
   color:#69737A;
   font-family: 'GothamExLight';
 }
-.presenciah1{
+.presencia h1{
     font-size:72px;
     font-family: 'Gotham-Light';
     color: #ffffff;
   margin-top: 10px;
   padding-bottom: 15px;
 }
-.presenciap{
+.presencia p{
     font-size: 33px;
     line-height: 33px;
     color: #A98206;
     padding-top: 30px;
-}
-.estilo-nuevo{
-  margin: 20px;
-}
-
-.estilo-mas-nuevo{
-  margin: 70px;
 }
