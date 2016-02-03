@@ -1,3 +1,7 @@
+.container-wrap {
+  background-color: #ffffff;
+}
+
 p {
   font-size: 16px;
   line-height: 24px;
@@ -167,7 +171,11 @@ h4{
     color: #E32237;
 }
 .div-shadow {
-    box-shadow: 2px 4px 6px #B4B4B7;
+    box-shadow: 2px 4px 6px #D8D8D8;
+}
+
+.p-blanco {
+  color: #ffffff;
 }
 
 
@@ -192,6 +200,7 @@ h4{
 .center-underline{
   position: absolute;
   border-bottom: 1px solid #D59F10;
+  margin-top: 20px;
   width: 100px;
   left: 50%;
   margin-left: -50px;
