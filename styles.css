@@ -155,6 +155,19 @@ h4{
     padding-right: 20px;
     color: #E32237;
 }
+
+.boton-degradado {
+    margin-top: 15px;
+    background: #174EA1; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #01B1FC , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #01B1FC, #174EA1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #01B1FC, #174EA1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #01B1FC , #174EA1); /* Standard syntax (must be last) */
+}
+
+.boton-degradado:hover {
+    background: #174EA1;
+}
 .div-shadow {
     box-shadow: 2px 4px 6px #D8D8D8;
 }
