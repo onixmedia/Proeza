@@ -26,14 +26,11 @@ h4{
     color: #E32237;
 }
 .p-titulo{
-  font-size: 22px;
+  font-size: 21px;
   color: #69737A;
   font-family: 'Gotham-Book';
 }
-.parrafo-imagen {
-  color: #ffffff;
-  font-family: 'Gotham-Light';
-}
+
 .h3-parrafo {
     color: white;
     text-shadow: 0 0 5px #4A4A4A;
@@ -66,25 +63,13 @@ h4{
     border-radius: 0px 0px 10px 0;
 }
 
-.contenido-general {
-    border-radius: 10px 0px 10px;
-    background: #5E808D;
-    width: 100%;
-    height: 100%;
-}
-
 .line {
   border-top: 1px solid #ffffff;
   width: 100px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.listas-bullets{
-  color: #E32237;
-}
-.listas-bullets p {
-  color: #ffffff;
-}
+
 .listas-continuas li {
   width: 20%;
   float: left;
@@ -97,7 +82,7 @@ h4{
     overflow: hidden;
 }
 .h1-gradiente {
-  font-size: 50px;
+  font-size: 48px;
   font-family: 'Gotham-Bold';
   line-height: 50px;
   background: #1B4092; /* For browsers that do not support gradients */
@@ -176,6 +161,36 @@ h4{
   color: #ffffff;
 }
 
+.bloque-mision {
+  border-radius: 20px 0 20px 0;
+  background-color: #5E808D;
+  padding: 90px 60px;
+}
+.bloque-mision h1{
+  font-size: 42px;
+}
+
+.bloque-vision {
+    border-radius: 20px 0 20px 0;
+    background-color: #C4C4C4;
+    padding: 90px 60px;
+}
+.bloque-vision h1{
+  font-size: 42px;
+}
+.bloque-vision p{
+  color: #69737A;
+  font-family: 'Gotham-Light';
+}
+
+.bloque-vision ul{
+  color: #E32237;
+  font-family: 'Georgia';
+  font-size: 16px;
+}
+.bloque-vision span{
+  color: #69737A;
+}
 
 /* JC*/
 .titleStage{
@@ -185,7 +200,7 @@ h4{
 }
 .titleSection{
   position: relative;
-  width: 40%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
