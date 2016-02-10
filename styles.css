@@ -1,23 +1,19 @@
 .container-wrap {
   background-color: #ffffff;
 }
-
-a {
- color: #E9B332 !important;
+ul{
+  list-style: none;
+}
+.listado li{
+  font-size: 16px;
+  line-height: 24px;
+  list-style: none !important;
 }
 
-a:visited {
- color: #E9B332;
+.listado li:before {
+    content: "• ";
+    color: red;
 }
-
-a:hover {
- color: #E9B332;
-}
-
-a:active{
- color: #E9B332;
-}
-
 p {
   font-size: 16px;
   line-height: 24px;
@@ -159,7 +155,7 @@ h4{
 
 .boton-degradado {
     margin-top: 15px;
-    background: #174EA1; /* For browsers that do not support gradients */    
+    background: #174EA1; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, #01B1FC , yellow); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #01B1FC, #174EA1); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #01B1FC, #174EA1); /* For Firefox 3.6 to 15 */
@@ -167,10 +163,10 @@ h4{
 }
 
 .boton-degradado:hover {
-    background: #174EA1;
+  background: #174EA1;
 }
 .div-shadow {
-    box-shadow: 2px 4px 6px #D8D8D8;
+  box-shadow: 2px 4px 6px #D8D8D8;
 }
 
 .p-blanco {
@@ -318,4 +314,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
     line-height: 33px;
     color: #A98206;
     padding-top: 30px;
+}
+.redondo{
+border-radius: 10px 0 10px 0px;
 }
