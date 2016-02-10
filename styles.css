@@ -1,4 +1,4 @@
-
+/*Estilos Sitio Proeza ONIXMEDIA TEAM*/
 ul{
   list-style: none;
 }
@@ -53,7 +53,6 @@ h4{
 .container-wrap {
   background-color: #ffffff;
 }
-
 
 .block-unete{
   background: #B0B7BB;
@@ -320,8 +319,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
     color: #A98206;
     padding-top: 30px;
 }
-
 .redondo{
 border-radius: 10px 0 10px 0px;
 }
-
