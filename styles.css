@@ -2,6 +2,22 @@
   background-color: #ffffff;
 }
 
+a {
+ color: #E9B332 !important;
+}
+
+a:visited {
+ color: #E9B332;
+}
+
+a:hover {
+ color: #E9B332;
+}
+
+a:active{
+ color: #E9B332;
+}
+
 p {
   font-size: 16px;
   line-height: 24px;
