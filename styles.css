@@ -12,6 +12,9 @@ ul{
     content: "• ";
     color: red;
 }
+.stage{
+  height:600px; 
+}
 
 p {
   font-size: 16px;
@@ -98,7 +101,7 @@ h4{
     overflow: hidden;
 }
 .h1-gradiente {
-  font-size: 48px;
+  font-size: 42px;
   font-family: 'Gotham-Bold';
   line-height: 50px;
   background: #1B4092; /* For browsers that do not support gradients */
