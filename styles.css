@@ -1,3 +1,6 @@
+.container-wrap {
+  background-color: #ffffff !important;
+}
 
 ul{
   list-style: none;
@@ -11,6 +14,10 @@ ul{
 .listado li:before {
     content: "• ";
     color: red;
+}
+
+a:hover {
+  color: #B5171B;
 }
 
 p {
@@ -131,44 +138,47 @@ h4{
     -webkit-text-fill-color: transparent;
  }
 
-  .boton-principal {
-    border-radius: 10px 0px 10px;
-    padding: 10px 20px;
-    background: #E32237;
-    border: 0px;
-    font-family: 'Gotham-Bold';
-    color: #FFFFFF;
-    font-size: 14px;
-    transition: all 0.5s ease;
-}
-
-.boton-principal:hover {
+.boton-principal {
   border-radius: 10px 0px 10px;
   padding: 10px 20px;
-  background: #B5171B;
   border: 0px;
   font-family: 'Gotham-Bold';
   color: #FFFFFF;
   font-size: 14px;
-}
- .boton-invertido {
-    background: #FFFFFF;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #E32237;
+  transition: all 0.5s ease;
 }
 
-.boton-degradado {
-    margin-top: 15px;
-    background: #174EA1; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left, #01B1FC , yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #01B1FC, #174EA1); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #01B1FC, #174EA1); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #01B1FC , #174EA1); /* Standard syntax (must be last) */
+.rojo{
+    background: #E32237;
 }
 
-.boton-degradado:hover {
+.rojo:hover{
+    background: #B5171B;
+    color: #FFFFFF;
+}
+
+.blanco{
+  background: #FFFFFF !important;
+  color: #E32237 !important;
+}
+
+.blanco:hover{
+  background: #E32237 !important;
+  color: #ffffff !important;
+}
+
+.degradado {
+  background: #174EA1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #01B1FC , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #01B1FC, #174EA1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #01B1FC, #174EA1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #01B1FC , #174EA1); /* Standard syntax (must be last) */
+  color: #ffffff !important;
+}
+
+.degradado:hover {
   background: #174EA1;
+  color: #ffffff !important;
 }
 .div-shadow {
   box-shadow: 2px 4px 6px #D8D8D8;
@@ -227,6 +237,13 @@ h4{
   font-family: 'GothamExLight';
   letter-spacing: -1px;
 }
+.titleSection a{
+  color:#69737A !important;
+}
+.titleSection a:hover{
+  color:#495156 !important;
+}
+
 .center-underline{
   position: absolute;
   border-bottom: 1px solid #D59F10;
@@ -301,9 +318,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
   width: 100% !important;
 }
 
+.txt-bsn-opp {
+  padding: 0px 20px 30px;
+  border: solid 1px #ECECEC;
+  margin-top: -10px;
+  border-radius: 0px 0px 10px;
+  padding-top: 0px;
+}
+
 .txt-bsn-opp p{
   padding-top: 15px;
   font-size: 14px;
+  line-height: 19px;
   color:#69737A;
   font-family: 'GothamExLight';
 }
