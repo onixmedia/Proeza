@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 .container-wrap {
   background-color: #ffffff !important;
 }
 
+=======
+/*Estilos Sitio Proeza ONIXMEDIA TEAM*/
+>>>>>>> fc31cae26b37a7ff61e8ded34e5fd6666a950224
 ul{
   list-style: none;
 }
@@ -14,6 +18,9 @@ ul{
 .listado li:before {
     content: "• ";
     color: red;
+}
+.stage{
+  height:600px; 
 }
 
 a:hover {
@@ -61,7 +68,6 @@ h4{
   background-color: #ffffff;
 }
 
-
 .block-unete{
   background: #B0B7BB;
   border-radius: 10px 0px 10px 0;
@@ -106,7 +112,7 @@ h4{
     overflow: hidden;
 }
 .h1-gradiente {
-  font-size: 48px;
+  font-size: 42px;
   font-family: 'Gotham-Bold';
   line-height: 50px;
   background: #1B4092; /* For browsers that do not support gradients */
@@ -346,8 +352,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
     color: #A98206;
     padding-top: 30px;
 }
-
 .redondo{
 border-radius: 10px 0 10px 0px;
 }
-
