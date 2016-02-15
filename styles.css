@@ -13,9 +13,11 @@ ul{
     color: red;
 }
 .stage{
-  height:600px; 
+  height:600px;
 }
-
+.stage-xs{
+  height:500px;
+}
 p {
   font-size: 16px;
   line-height: 24px;
