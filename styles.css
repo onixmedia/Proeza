@@ -1,13 +1,40 @@
-
 /*Estilos Sitio Proeza ONIXMEDIA TEAM*/
 
 .container-wrap {
   background-color: #ffffff !important;
 }
 
+body{
+  background: white !important;
+  color: #69737A;
+}
+header{
+  border-bottom: 4px solid #B48C1F;
+
 ul{
   list-style: none;
 }
+#header-secondary-outer{
+  background-color: white;
+  border-bottom: 1px solid white !important;
+  margin-top: 20px;
+}
+header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
+  text-transform: uppercase;
+  font-family: 'Gotham-Medium', sans-serif;
+  font-size: 14px !important;
+  color: #69737A;
+}
+#header-secondary-outer nav > ul > li:last-child, #header-secondary-outer nav > ul > li > a{
+  border: none !important;
+}
+#header-secondary-outer nav > ul > li{
+  border-left: 1px solid #f2f2f2;
+}
+#header-secondary-outer nav > ul > li > a{
+  color: #D6A317;
+}
+
 .listado li{
   font-size: 16px;
   line-height: 24px;
@@ -19,11 +46,10 @@ ul{
     color: red;
 }
 .stage{
-  height:600px; 
+  height:600px;
 }
-
-a:hover {
-  color: #B5171B;
+.stage-xs{
+  height:500px;
 }
 
 p {
