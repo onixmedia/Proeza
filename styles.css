@@ -1,11 +1,10 @@
-<<<<<<< HEAD
+
+/*Estilos Sitio Proeza ONIXMEDIA TEAM*/
+
 .container-wrap {
   background-color: #ffffff !important;
 }
 
-=======
-/*Estilos Sitio Proeza ONIXMEDIA TEAM*/
->>>>>>> fc31cae26b37a7ff61e8ded34e5fd6666a950224
 ul{
   list-style: none;
 }
@@ -34,6 +33,12 @@ p {
   padding-bottom: 10px;
   font-family: 'Gotham-Light';
 }
+
+.p-georgia {
+  font-family: 'Georgia';
+  line-height: 20px;
+}
+
 h1{
     font-size:48px;
     font-family: 'GothamExLight';
@@ -192,6 +197,9 @@ h4{
 
 .p-blanco {
   color: #ffffff;
+}
+.titulo-bold {
+  font-family: 'Gotham-Bold';
 }
 
 .bloque-mision {
@@ -354,4 +362,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
 }
 .redondo{
 border-radius: 10px 0 10px 0px;
+}
+
+.programa-delta ul{
+  color: #ffffff;
+  font-size: 16px !important;
 }
