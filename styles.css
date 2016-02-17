@@ -1,9 +1,5 @@
 /*Estilos Sitio Proeza ONIXMEDIA TEAM*/
 
-.container-wrap {
-  background-color: #ffffff !important;
-}
-
 body{
   background: white !important;
   color: #69737A;
@@ -35,6 +31,11 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
   color: #D6A317;
 }
 
+
+.container-wrap {
+  background-color: #ffffff !important;
+}
+
 .listado li{
   font-size: 16px;
   line-height: 24px;
@@ -62,7 +63,8 @@ p {
 
 .p-georgia {
   font-family: 'Georgia';
-  line-height: 20px;
+    line-height: 20px;
+    font-size: 16px !important;
 }
 
 h1{
@@ -146,35 +148,77 @@ h4{
   font-size: 42px;
   font-family: 'Gotham-Bold';
   line-height: 50px;
-  background: #1B4092; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #00B6FF, #1B4092); /* Standard syntax */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+ }
+ .h3-gradiente {
+   font-size: 24px;
+   font-family: 'Gotham-Light';
+   color: #00B8FF;
+  }
+ .gblue{
+   background: -webkit-linear-gradient(#0075BD, #00B8FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    color: #0075BD;
+ }
+ .gskyblue{
+   background: -webkit-linear-gradient(#0075bd, #00b8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    color: #00703c;
+ }
+ .ggreen{
+   background: -webkit-linear-gradient(#00703c, #80B846);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    color: #00703c;
+ }
+ .gyellow{
+   background: -webkit-linear-gradient(#F6D121, #F0A121);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    color: #F6D121;
+ }
+ .gorange{
+   background: -webkit-linear-gradient(#fe923b, #ba640d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    color: #fe923b;
  }
 .line-gradiente {
     height: 1px;
     width: 50px;
-    background: -webkit-linear-gradient(left, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #00B6FF, #1B4092); /* Standard syntax (must be last) */
     margin-top: 20px;
 }
-.h3-gradiente {
-  font-size: 24px;
-  font-family: 'Gotham-Light';
-  background: #1B4092; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #00B6FF, #1B4092); /* Standard syntax */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
- }
-
+.line-blue{
+  background: -webkit-linear-gradient(left, #00B6FF, #1B4092); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #00B6FF, #1B4092); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #00B6FF, #1B4092); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #00B6FF, #1B4092); /* Standard syntax (must be last) */
+}
+.line-skyblue{
+  background: -webkit-linear-gradient(left, #0075bd, #00b8ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #0075bd, #00b8ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #0075bd, #00b8ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #0075bd, #00b8ff); /* Standard syntax (must be last) */
+}
+.line-green{
+  background: -webkit-linear-gradient(left, #00703c, #80B846); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #00703c, #80B846); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #00703c, #80B846); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #00703c, #80B846); /* Standard syntax (must be last) */
+}
+.line-yellow{
+  background: -webkit-linear-gradient(left, #F6D121, #F0A121); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F6D121, #F0A121); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F6D121, #F0A121); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F6D121, #F0A121); /* Standard syntax (must be last) */
+}
+.line-orange{
+  background: -webkit-linear-gradient(left, #fe923b, #ba640d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #fe923b, #ba640d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #fe923b, #ba640d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #fe923b, #ba640d); /* Standard syntax (must be last) */
+}
 .boton-principal {
   border-radius: 10px 0px 10px;
   padding: 10px 20px;
@@ -224,6 +268,10 @@ h4{
 .p-blanco {
   color: #ffffff;
 }
+.titulo-bold {
+  font-family: 'Gotham-Bold';
+}
+
 .titulo-bold {
   font-family: 'Gotham-Bold';
 }
@@ -381,7 +429,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
 border-radius: 10px 0 10px 0px;
 }
 
+.hidden{display:none;}
+#ocultar{cursor: pointer;}
+
 .programa-delta ul{
   color: #ffffff;
   font-size: 16px !important;
+}
+
+
+/*FOOTER*/
+.footer-outer{
+  background-color: white;
 }
