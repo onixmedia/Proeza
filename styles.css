@@ -6,7 +6,7 @@ body{
 }
 header{
   border-bottom: 4px solid #B48C1F;
-}
+
 ul{
   list-style: none;
 }
@@ -268,6 +268,9 @@ h4{
 .p-blanco {
   color: #ffffff;
 }
+.titulo-bold {
+  font-family: 'Gotham-Bold';
+}
 
 .titulo-bold {
   font-family: 'Gotham-Bold';
@@ -434,6 +437,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
 .redondo{
 border-radius: 10px 0 10px 0px;
 }
+
 .hidden{display:none;}
 #ocultar{cursor: pointer;}
 
@@ -441,6 +445,7 @@ border-radius: 10px 0 10px 0px;
   color: #ffffff;
   font-size: 16px !important;
 }
+
 
 /*FOOTER*/
 .footer-outer{
