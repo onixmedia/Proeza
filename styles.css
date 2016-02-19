@@ -413,17 +413,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
   font-family: 'GothamExLight';
 }
 .presencia h1{
-    font-size:72px;
+    font-size:42px;
     font-family: 'Gotham-Light';
     color: #ffffff;
   margin-top: 10px;
-  padding-bottom: 15px;
 }
 .presencia p{
-    font-size: 33px;
+    font-size: 24px;
     line-height: 33px;
     color: #A98206;
-    padding-top: 30px;
 }
 .redondo{
 border-radius: 10px 0 10px 0px;
@@ -435,6 +433,29 @@ border-radius: 10px 0 10px 0px;
 .programa-delta ul{
   color: #ffffff;
   font-size: 16px !important;
+}
+
+#square {
+  width: 20px;
+  height: 20px;
+  background: #E9B332;
+  float: left;
+  margin-right: 20px;
+}
+
+#circle{
+  width: 20px;
+  height: 20px;
+  background: #E32237;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+#text {
+  float: left;
 }
 
 
