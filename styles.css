@@ -6,7 +6,7 @@ body{
 }
 header{
   border-bottom: 4px solid #B48C1F;
-
+}
 ul{
   list-style: none;
 }
@@ -219,20 +219,18 @@ h4{
   background: -moz-linear-gradient(right, #fe923b, #ba640d); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #fe923b, #ba640d); /* Standard syntax (must be last) */
 }
-.boton-principal {
-  border-radius: 10px 0px 10px;
-  padding: 10px 20px;
-  border: 0px;
-  font-family: 'Gotham-Bold';
+.boton-principal , .formulario-contacto input[type=submit], .ascend .container-wrap input[type="submit"], .ascend .container-wrap button[type="submit"]{
+  border-radius: 10px 0px 10px !important;
+  padding: 10px 20px !important;
+  border: 0px !important;
+  font-family: 'Gotham-Bold' !important;
   color: #FFFFFF;
   font-size: 14px;
   transition: all 0.5s ease;
 }
-
-.rojo{
+.rojo, input[type=submit], button[type=submit], input[type="button"]{
     background: #E32237;
 }
-
 .rojo:hover{
     background: #B5171B;
     color: #FFFFFF;
@@ -427,9 +425,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
 border-radius: 10px 0 10px 0px;
 }
 
-.hidden{display:none;}
-#ocultar{cursor: pointer;}
-
 .programa-delta ul{
   color: #ffffff;
   font-size: 16px !important;
@@ -455,6 +450,60 @@ border-radius: 10px 0 10px 0px;
 }
 
 #text {
+  float: left;
+
+/*Function Hide-Show*/
+.hidden{display:none;}
+#ocultar{cursor: pointer;}
+
+/*Page Contact*/
+.formulario-contacto {
+  overflow-x: auto;
+  margin: 70px auto 0;
+  width: 90%;
+}
+.formulario-contacto input[type="text"], .formulario-contacto input[type="email"], .formulario-contacto textarea{
+  background: white !important;
+  border: 1px solid #E0E0E0 !important;
+}
+.fright{
+  float: right;
+}
+.titulo-continente{
+  font-size: 24px;
+  color:#69737A;
+  font-family: 'Gotham-Bold', sans-serif;
+}
+.paises .nombre-pais{
+  color:#44494D;
+  font-family: 'Gotham-Bold';
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+}
+.paises .line{
+  height: 2px;
+  background: #D59F10;
+  width: 250px;
+  margin: 10px 0;
+}
+.paises .oficina{
+  font-size: 16px;
+  font-family: 'Gotham-Medium',sans-serif;
+  padding: 0;
+}
+.paises p{
+  color:#69737A;
+  font-size: 14px;
+  line-height: 18px;
+}
+.mt40{
+  margin-top: 40px;
+}
+.flecha {
+  float: right;
+}
+.info{
   float: left;
 }
 
