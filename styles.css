@@ -481,6 +481,14 @@ border-radius: 10px 0 10px 0px;
   margin-top: 40px;
 }
 
+.flecha{
+  width: 30px;
+  height: 30px;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/flecha.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+}
 
 /*FOOTER*/
 .footer-outer{
