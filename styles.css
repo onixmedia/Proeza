@@ -451,6 +451,7 @@ border-radius: 10px 0 10px 0px;
 
 #text {
   float: left;
+}
 
 /*Function Hide-Show*/
 .hidden{display:none;}
@@ -487,7 +488,7 @@ border-radius: 10px 0 10px 0px;
   width: 250px;
   margin: 10px 0;
 }
-.paises .oficina{
+.paises .oficina, .titulo-pais h2{
   font-size: 16px;
   font-family: 'Gotham-Medium',sans-serif;
   padding: 0;
@@ -504,9 +505,20 @@ border-radius: 10px 0 10px 0px;
   float: right;
 }
 .info{
+  width: 100%;
+}
+.more{
+  width: 30%;
   float: left;
 }
-
+.titulo-pais{
+  width: 65%;
+  float: left;
+}
+.pres-pais{
+  width: 100%;
+  float: left;
+}
 .flecha{
   width: 30px;
   height: 30px;
