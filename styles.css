@@ -518,12 +518,17 @@ border-radius: 10px 0 10px 0px;
 .pres-pais{
   width: 100%;
   float: left;
+  margin-bottom: 20px;
+}
+.pres-pais .ciudad{
+  font-size: 16px;
+  font-family: 'Gotham-Medium', sans-serif;
 }
 .flecha{
   width: 30px;
   height: 30px;
   background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/flecha.png');
-  background-position: 0 0;
+  background-position: 0 -28px;
   background-repeat: no-repeat;
   display: block;
 }
