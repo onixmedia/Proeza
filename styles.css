@@ -270,9 +270,6 @@ h4{
   font-family: 'Gotham-Bold';
 }
 
-.titulo-bold {
-  font-family: 'Gotham-Bold';
-}
 
 .bloque-mision {
   border-radius: 20px 0 20px 0;
@@ -410,17 +407,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
   color:#69737A;
   font-family: 'GothamExLight';
 }
-.presencia h1{
-    font-size:42px;
-    font-family: 'Gotham-Light';
-    color: #ffffff;
-  margin-top: 10px;
-}
-.presencia p{
-    font-size: 24px;
-    line-height: 33px;
-    color: #A98206;
-}
+
 .redondo{
 border-radius: 10px 0 10px 0px;
 }
@@ -451,6 +438,7 @@ border-radius: 10px 0 10px 0px;
 
 #text {
   float: left;
+}
 
 /*Function Hide-Show*/
 .hidden{display:none;}
@@ -469,33 +457,33 @@ border-radius: 10px 0 10px 0px;
 .fright{
   float: right;
 }
-.titulo-continente{
-  font-size: 24px;
-  color:#69737A;
-  font-family: 'Gotham-Bold', sans-serif;
+
+.contacto {
+    color: #444 !important;
 }
+
 .paises .nombre-pais{
-  color:#44494D;
+  color:#848484;
   font-family: 'Gotham-Bold';
   font-size: 18px;
   margin: 0;
-  line-height: 1;
+  line-height: 28px;
 }
+
+
+
 .paises .line{
   height: 2px;
   background: #D59F10;
   width: 250px;
   margin: 10px 0;
 }
-.paises .oficina{
-  font-size: 16px;
-  font-family: 'Gotham-Medium',sans-serif;
-  padding: 0;
-}
+
 .paises p{
-  color:#69737A;
+  color:#848484;;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
+  padding-bottom: 0px;
 }
 .mt40{
   margin-top: 40px;
@@ -504,9 +492,48 @@ border-radius: 10px 0 10px 0px;
   float: right;
 }
 .info{
+  width: 100%;
+}
+.more{
+  width: 30%;
   float: left;
 }
+.titulo-pais{
+  width: 65%;
+  float: left;
+}
+.pres-pais{
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
 
+.flecha{
+  width: 30px;
+  height: 30px;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/flecha.png');
+  background-position: 0 -28px;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.paises .unidades {
+  font-size: 14px;
+  font-family: 'Gotham-Medium',sans-serif;
+}
+
+.oficina {
+  font-size: 16px !important;
+  font-family: 'Gotham-Medium',sans-serif;
+  padding-top: 10px;
+  color: #848484;
+  line-height: 24px;
+}
+
+.paises .continente {
+  font-size: 21px;
+  font-family: 'Gotham-Bold';
+}
 
 /*FOOTER*/
 .footer-outer{
