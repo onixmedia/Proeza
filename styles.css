@@ -542,7 +542,9 @@ border-radius: 10px 0 10px 0px;
 
 
 
-.paises .line{
+.paises .lines{
+  position: absolute;
+  border-bottom: 1px solid #D59F10;
   height: 2px;
   background: #D59F10;
   width: 250px;
@@ -604,6 +606,16 @@ border-radius: 10px 0 10px 0px;
 .paises .continente {
   font-size: 21px;
   font-family: 'Gotham-Bold';
+}
+
+.lines:before, .lines:after {
+    display: none;
+}
+
+.division{
+  position: absolute;
+border-bottom: 1px solid #D59F10;
+width: 65px;
 }
 
 /*FOOTER*/
