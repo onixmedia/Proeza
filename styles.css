@@ -10,10 +10,57 @@ header{
 ul{
   list-style: none;
 }
+.lenguaje{
+  float: right;
+  padding: 5px 0;
+  margin: 0 0 0 20px;
+}
+.lenguaje p{
+  color:#D6A317;
+  text-transform: uppercase;
+  font-family: 'Gotham-Medium',sans-serif;
+  font-size: 14px !important;
+  display: block;
+  float: left;
+}
+#lang_sel_click{
+  display: block;
+  float: left;
+}
+#lang_sel_click li{
+  width: 100px;
+}
+.world{
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/idioma.png');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+#lang_sel_click a.lang_sel_sel{
+  border: none !important;
+  color:#D6A317 !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Gotham-Bold', sans-serif;;
+}
+#lang_sel_click a:hover{
+  background: none !important;
+}
+#lang_sel_click a.lang_sel_sel{
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/arrow.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: right !important;
+}
+ul{
+  list-style: none;
+}
 #header-secondary-outer{
   background-color: white;
   border-bottom: 1px solid white !important;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
   text-transform: uppercase;
