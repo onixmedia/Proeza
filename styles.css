@@ -618,6 +618,6 @@ width: 65px;
 }
 
 /*FOOTER*/
-.footer-outer{
-  background-color: white;
+#footer-outer{
+  background-color: white !important;
 }
