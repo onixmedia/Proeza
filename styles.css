@@ -588,12 +588,6 @@ border-radius: 10px 0 10px 0px;
   background-repeat: no-repeat;
   display: block;
 }
-
-.paises .unidades {
-  font-size: 14px;
-  font-family: 'Gotham-Medium',sans-serif;
-}
-
 .oficina {
   font-size: 16px !important;
   font-family: 'Gotham-Medium',sans-serif;
@@ -602,6 +596,16 @@ border-radius: 10px 0 10px 0px;
   line-height: 24px;
 }
 
+.paises .unidades {
+  font-size: 14px;
+  font-family: 'Gotham-Medium',sans-serif;
+}
+.paises .oficina{
+    padding-top: 0px;
+}
+.paises .pres-pais .oficina {
+  padding-top: 10px;
+}
 .paises .continente {
   font-size: 21px;
   font-family: 'Gotham-Bold';
