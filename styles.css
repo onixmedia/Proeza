@@ -11,23 +11,33 @@ ul{
   list-style: none;
 }
 .lenguaje{
-  float: right;
+  float: left;
   padding: 5px 0;
   margin: 0 0 0 20px;
+}
+.menu-secundario{
+  float: left;
+}
+.menu-top{
+  width: auto;
+  float: right;
 }
 .lenguaje p{
   color:#D6A317;
   text-transform: uppercase;
   font-family: 'Gotham-Medium',sans-serif;
-  font-size: 14px !important;
+  font-size: 12px !important;
   display: block;
   float: left;
+}
+#logo{
+  margin-top: 25px;
 }
 #lang_sel_click{
   display: block;
   float: left;
 }
-#lang_sel_click li{
+#lang_sel_click li, #lang_sel li{
   width: 100px;
 }
 .world{
@@ -36,29 +46,39 @@ ul{
   width: 20px;
   height: 20px;
   display: inline-block;
-  margin-right: 10px;
   vertical-align: middle;
 }
-#lang_sel_click a.lang_sel_sel{
+#lang_sel_click a.lang_sel_sel, #lang_sel a.lang_sel_sel, #lang_sel a, #lang_sel ul ul a:visited, .menu-secundario a{
   border: none !important;
   color:#D6A317 !important;
-  font-size: 14px;
+  font-size: 12px !important;
   text-transform: uppercase;
   font-family: 'Gotham-Bold', sans-serif;;
 }
-#lang_sel_click a:hover{
+#lang_sel ul ul a:hover, .icl-es a:hover, .icl-en a:hover, #header-secondary-outer ul ul li:hover > a{
+  color:#B38813 !important;
+  }
+#lang_sel ul ul{
+  border: none !important;
+}
+#lang_sel_click a:hover, #lang_sel a:hover,  #lang_sel ul ul a:visited, #header-secondary-outer ul ul li:hover > a{
   background: none !important;
 }
-#lang_sel_click a.lang_sel_sel{
+#lang_sel_click a.lang_sel_sel, #lang_sel a.lang_sel_sel{
   background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/arrow.png') !important;
   background-repeat: no-repeat !important;
   background-position: right !important;
 }
-ul{
-  list-style: none;
+#header-outer{
+  padding-top: 15px !important;
+  box-shadow: none !important;
+}
+header#top #logo img{
+  width: 100% !important;
+  height: auto !important;
 }
 #header-secondary-outer{
-  background-color: white;
+  background:white;
   border-bottom: 1px solid white !important;
   padding-top: 20px;
 }
@@ -67,6 +87,9 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
   font-family: 'Gotham-Medium', sans-serif;
   font-size: 14px !important;
   color: #69737A;
+}
+#header-secondary-outer nav > ul > li > a{
+  font-size: 12px !important;
 }
 #header-secondary-outer nav > ul > li:last-child, #header-secondary-outer nav > ul > li > a{
   border: none !important;
@@ -373,15 +396,6 @@ h4{
   left: 50%;
   margin-left: -50px;
 }
-
-.division{
-  position: absolute;
-  border-bottom: 1px solid #D59F10;
-  width: 65px;
-}
-
-
-
 .bsn-opp{
   display: block;
   float: left;
@@ -528,12 +542,12 @@ border-radius: 10px 0 10px 0px;
 
 
 
-.paises .lines{
-  position: absolute;
-  border-bottom: 1px solid #D59F10;
+.paises .line{
+  height: 2px;
+  background: #D59F10;
   width: 250px;
+  margin: 10px 0;
 }
-
 
 .paises p{
   color:#848484;;
@@ -590,10 +604,6 @@ border-radius: 10px 0 10px 0px;
 .paises .continente {
   font-size: 21px;
   font-family: 'Gotham-Bold';
-}
-
-.lines:before, .lines:after {
-    display: none;
 }
 
 /*FOOTER*/
