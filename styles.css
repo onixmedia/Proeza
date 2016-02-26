@@ -624,4 +624,51 @@ width: 65px;
 /*FOOTER*/
 #footer-outer{
   background-color: white !important;
+  border-top: 4px solid #B48C1F;
+}
+#footer-outer #footer-widgets .col ul li{
+  float: left;
+  margin-right: 15px;
+}
+#footer-outer #footer-widgets .col ul li ul li{
+  float: left;
+  clear: both;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#footer-outer #footer-widgets .col ul li a{
+  text-transform: uppercase;
+  font-family: 'Gotham-Medium',sans-serif;
+  font-size: 14px !important;
+  color: #69737A;
+}
+#footer-outer #footer-widgets .col ul li ul li a{
+  font-family: 'Gotham-Book', sans-serif;
+}
+#footer-outer #footer-widgets .col ul li:first-child{
+  padding-top: 4px !important;
+}
+#footer-outer .widget.widget_nav_menu ul ul{
+  padding: 0 !important;
+}
+.logo-footer{
+  width: 250px;
+  float: right;
+  text-align: right;
+}
+#text-2{
+  position: relative;
+  bottom: 20px;
+}
+#to-top{
+  display: none !important;
+}
+#nav_menu-3{
+  float: left;
+  clear: both;
+  margin-top: 20px;
+}
+#nav_menu-3 .menu-menu-footer-container ul li a{
+  font-family: 'Gotham-Book', sans-serif !important;
+  color:#9B9B9B !important;
 }
