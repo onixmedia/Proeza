@@ -363,7 +363,6 @@ h4{
   font-family: 'Gotham-Light';
 }
 
-/* JC*/
 .titleStage{
   font-size: 64px;
   color: white;
@@ -625,6 +624,12 @@ width: 65px;
 #footer-outer{
   background-color: white !important;
   border-top: 4px solid #B48C1F;
+}
+#footer-outer .row{
+  padding: 40px 0 0 0;
+}
+#footer-outer #text-4{
+  margin: 0 !important;
 }
 #footer-outer #footer-widgets .col ul li{
   float: left;
