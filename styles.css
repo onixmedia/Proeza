@@ -41,7 +41,7 @@ ul{
   width: 100px;
 }
 .world{
-  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/idioma.png');
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/idioma.png');
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -65,7 +65,7 @@ ul{
   background: none !important;
 }
 #lang_sel_click a.lang_sel_sel, #lang_sel a.lang_sel_sel{
-  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/arrow.png') !important;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/arrow.png') !important;
   background-repeat: no-repeat !important;
   background-position: right !important;
 }
@@ -582,7 +582,7 @@ border-radius: 10px 0 10px 0px;
 .flecha{
   width: 30px;
   height: 30px;
-  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/flecha.png');
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/flecha.png');
   background-position: 0 -28px;
   background-repeat: no-repeat;
   display: block;
@@ -619,7 +619,38 @@ border-radius: 10px 0 10px 0px;
 border-bottom: 1px solid #D59F10;
 width: 65px;
 }
-
+/*HISTORIA*/
+.block-historia{
+  position: relative;
+  top: -200px;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/linea-historia.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.txt-historia{
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+  color:#69737A;
+  margin-top: 40px;
+}
+.historia-item{
+  position: relative;
+  height: 300px;
+  text-align: center;
+}
+.historia-item img{
+  width: 100%;
+}
+.historia-item .year{
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  color: rgba(227, 34, 55, 1);
+  mix-blend-mode: multiply;
+  font-size: 130px;
+  font-family: 'Gotham-Bold', sans-serif;
+  letter-spacing: -6px;
+}
 /*FOOTER*/
 #footer-outer{
   background-color: white !important;
@@ -683,7 +714,7 @@ width: 65px;
   font-size: 28px !important;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){    
+@media only screen and (min-width: 320px) and (max-width: 480px){
   .h3-parrafo{font-size: 18px; line-height: 21px; text-align: left; margin: 0px -20px 0px -20px !important;}
   .h3-numeros{font-size: 21px;}
   .block-bottom { padding: 30px 20px !important;}
@@ -692,4 +723,3 @@ width: 65px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 }
-
