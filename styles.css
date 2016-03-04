@@ -467,6 +467,12 @@ h4{
     margin-bottom: 20px;
   }
 }
+@media screen and (min-width:691px) {
+  .bsn-opp{
+    margin-left: 2%;
+    width: 48%;
+  }
+}
 @media screen and (min-width:1000px) {
   .bsn-opp{
     margin-left: 1%;
@@ -560,6 +566,11 @@ h4{
 @media screen and (min-width:320px){
   .txt-bsn-opp{
     min-height: auto;
+  }
+}
+@media screen and (min-width:691px) {
+  .txt-bsn-opp{
+    min-height: 145px;
   }
 }
 @media screen and (min-width:1000px){
@@ -701,8 +712,13 @@ h4{
   .page-id-6 .standard_section .dark .instance-0,
   .page-id-18 .standard_section .dark .instance-0,
   .page-id-20 .standard_section .dark .instance-0,
-  .page-id-22 .standard_section .dark .instance-0{
+  .page-id-22 .standard_section .dark .instance-0,
+  .page-id-323 .standard_section .dark .instance-0{
     display: none;
+  }
+  .page-id-323 .standard_section .dark .instance-0{
+    background: #48636E;
+    background-image: inherit !important;
   }
   /* Folosofia y Contacto (rojo) */
   .page-id-4 .standard_section .row-bg-wrap .using-image,
@@ -729,7 +745,8 @@ h4{
 @media only screen and (min-width: 1001px) {
   .page-id-4 .standard_section .row-bg-wrap .using-image,
   .page-id-18 .standard_section .row-bg-wrap .using-image,
-  .page-id-20 .standard_section .row-bg-wrap .using-image{
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
     background-position-x:30% !important;
   }
   .page-id-6 .standard_section .row-bg-wrap .using-image{
@@ -740,7 +757,8 @@ h4{
 @media only screen and (min-width: 1300px) {
   .page-id-4 .standard_section .row-bg-wrap .using-image,
   .page-id-18 .standard_section .row-bg-wrap .using-image,
-  .page-id-20 .standard_section .row-bg-wrap .using-image{
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
     background-position-x:0 !important;
   }
   .page-id-6 .standard_section .row-bg-wrap .using-image{
