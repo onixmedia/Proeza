@@ -130,7 +130,9 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
 .stage-xs{
   height:500px;
 }
-
+.nectar-slider-wrap[data-button-styling="btn_with_preview"] .swiper-container .slider-prev i, .nectar-slider-wrap[data-button-styling="btn_with_preview"] .swiper-container .slider-next i{
+  border: none !important;
+}
 p {
   font-size: 16px;
   line-height: 24px;
