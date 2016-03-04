@@ -109,6 +109,7 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
   font-size: 14px !important;
   color: #69737A;
 }
+
 #header-secondary-outer nav > ul > li > a{
   font-size: 12px !important;
 }
@@ -121,6 +122,57 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
 #header-secondary-outer nav > ul > li > a{
   color: #D6A317;
 }
+
+@media screen and (max-width:1000px){
+  header#top .menu-top{
+    display: none;
+  }
+}
+
+@media screen and (min-width:1001px) {
+  header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
+    font-size: 13px !important;
+  }
+  header#top nav{
+    margin-top: 0;
+  }
+  header#top .menu-top{
+    width: auto;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 26px;
+  }
+}
+
+@media screen and (min-width:1153px) {
+  header#top .menu-top{
+    top:0;
+  }
+  #logo{
+    margin-top: 9px;
+  }
+  header#top nav{
+    margin-top: 30px;
+  }
+}
+
+#slide-out-widget-area .menuwrapper li{
+  margin:20px 0;
+}
+#slide-out-widget-area .inner .off-canvas-menu-container li a{
+  color: #69737A;
+  font-size: 14px;
+  font-family: "Gotham SSm A","Gotham SSm B";
+  text-transform: uppercase;
+}
+#slide-out-widget-area .inner .off-canvas-menu-container li a:hover{
+  color: #D6A317 !important;
+}
+body[data-full-width-header="false"].admin-bar #slide-out-widget-area a.slide_out_area_close{
+  top: 71px;
+}
+
 
 .container-wrap {
   background-color: #ffffff !important;
@@ -964,14 +1016,40 @@ width: 65px;
 }
 
 @media screen and (max-width:1000px) {
+  #nav_menu-3, .logo-footer,
+  #footer-widgets .container .row .span_12 {
+    width: 100%;
+    text-align:center;
+    margin:0;
+  }
+  #footer-outer #footer-widgets .col ul li{
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
   #footer-widgets{
-
+    padding-bottom: 30px;
   }
-  #nav_menu-3{
-
+  #text-2 .logo-footer img{
+    display: inline-block;
+    float: none;
+    margin: 0 0 15px 0;
   }
-  #nav_menu-3 .menu-menu-footer-container{
-    display: none;
+  #footer-outer .widget{
+    margin-bottom: 0;
+  }
+  #text-2{
+    bottom:0;
+  }
+}
+@media screen and (min-width:1001px) {
+  #footer-outer #footer-widgets .col ul li a{
+    font-size: 11px !important;
+  }
+}
+@media screen and (min-width:1140px) {
+  #footer-outer #footer-widgets .col ul li a{
+    font-size: 14px !important;
   }
 }
 
