@@ -13,6 +13,18 @@ header#top .sf-menu li ul li a{
   font-style: normal;
   font-weight: 500;
 }
+.header-home{
+  width: 45%;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/line-cross.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: auto;
+  height: 570px;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  right: -30px;
+}
 ul{
   list-style: none;
 }
@@ -585,11 +597,17 @@ h4{
   }
 }
 @media screen and (min-width:1200px){
+  .header-home{
+    height: 477px;
+  }
   .txt-bsn-opp{
     min-height: 234px;
   }
 }
 @media screen and (min-width:1400px){
+  .header-home{
+    height: 570px;
+  }
   .txt-bsn-opp{
     min-height: 165px;
   }
@@ -909,6 +927,10 @@ width: 65px;
 #footer-outer .widget.widget_nav_menu ul ul{
   padding: 0 !important;
 }
+.lenguaje-footer{
+  width: 145px;
+  margin: 0 auto;
+}
 
 @media screen and (max-width:1000px) {
   #footer-widgets #menu-menu-principal-1{
@@ -973,4 +995,7 @@ width: 65px;
 
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .stage{
+    height:auto;
+  }
 }
