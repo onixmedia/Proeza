@@ -447,6 +447,13 @@ h4{
 .bsn-opp{
   display: block;
   float: left;
+  opacity: 1;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+.bsn-opp:hover{
+  opacity: 0.8;
 }
 @media screen and (min-width:320px) {
   .bsn-opp{
@@ -553,6 +560,9 @@ h4{
   .txt-bsn-opp{
     min-height: 170px;
   }
+  .unidades-negocio-texto {
+    padding: 4% !important
+  }
 }
 @media screen and (min-width:1200px){
   .txt-bsn-opp{
@@ -561,7 +571,7 @@ h4{
 }
 @media screen and (min-width:1400px){
   .txt-bsn-opp{
-    min-height: 180px;
+    min-height: 165px;
   }
 }
 .txt-bsn-opp p{
@@ -641,8 +651,6 @@ h4{
   line-height: 28px;
 }
 
-
-
 .paises .lines{
   border-bottom: 1px solid #D59F10;
   height: 2px;
@@ -679,6 +687,20 @@ h4{
   width: 100%;
   float: left;
   margin-bottom: 20px;
+}
+
+.row-bg-wrap {
+
+}
+
+@media screen and (max-width:1200px) {
+  .standard_section .dark .instance-0{
+    display: none;
+  }
+  .standard_section .row-bg-wrap .using-image{
+    background: #D41E2D;
+    background-image: inherit !important;
+  }
 }
 
 .flecha{
@@ -842,6 +864,7 @@ width: 65px;
  font-family: 'Gotham-Bold' !important;
  font-size: 28px;
 }
+
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
  .h3-parrafo{font-size: 18px; line-height: 21px; text-align: left; margin: 0px -20px 0px -20px !important;}
