@@ -32,7 +32,7 @@ ul{
   float: left;
 }
 #logo{
-  margin-top: 25px;
+  margin-top: 20px;
 }
 #lang_sel_click{
   display: block;
@@ -76,10 +76,7 @@ ul{
   padding-top: 15px !important;
   box-shadow: none !important;
 }
-header#top #logo img{
-  width: 100% !important;
-  height: auto !important;
-}
+
 #header-secondary-outer{
   background:white;
   border-bottom: 1px solid white !important;
