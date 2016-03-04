@@ -111,23 +111,32 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
   color: #D6A317;
 }
 
+@media screen and (max-width:1000px){
+  header#top .menu-top{
+    display: none;
+  }
+}
+
 @media screen and (min-width:1001px) {
   header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
     font-size: 13px !important;
   }
   header#top nav{
-    margin-top: 32px;
+    margin-top: 0;
   }
   header#top .menu-top{
     width: auto;
     float: right;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 26px;
   }
 }
 
 @media screen and (min-width:1153px) {
+  header#top .menu-top{
+    top:0;
+  }
   #logo{
     margin-top: 9px;
   }
@@ -135,6 +144,23 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
     margin-top: 30px;
   }
 }
+
+#slide-out-widget-area .menuwrapper li{
+  margin:20px 0;
+}
+#slide-out-widget-area .inner .off-canvas-menu-container li a{
+  color: #69737A;
+  font-size: 14px;
+  font-family: "Gotham SSm A","Gotham SSm B";
+  text-transform: uppercase;
+}
+#slide-out-widget-area .inner .off-canvas-menu-container li a:hover{
+  color: #D6A317 !important;
+}
+body[data-full-width-header="false"].admin-bar #slide-out-widget-area a.slide_out_area_close{
+  top: 71px;
+}
+
 
 .container-wrap {
   background-color: #ffffff !important;
