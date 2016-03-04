@@ -433,6 +433,7 @@ h4{
   font-family: "Gotham SSm A", "Gotham SSm B";
   font-style: normal;
   font-weight: 300;
+  line-height: 47px;
   letter-spacing: -1px;
 }
 .titleSection a{
@@ -716,7 +717,8 @@ h4{
   .page-id-323 .standard_section .dark .instance-0{
     display: none;
   }
-  .page-id-323 .standard_section .dark .instance-0{
+  /* Oportunidad (aqua) */
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
     background: #48636E;
     background-image: inherit !important;
   }
@@ -905,6 +907,13 @@ width: 65px;
 #footer-outer .widget.widget_nav_menu ul ul{
   padding: 0 !important;
 }
+
+@media screen and (max-width:1000px) {
+  #footer-widgets #menu-menu-principal-1{
+    display: none;
+  }
+}
+
 .logo-footer{
   width: 250px;
   float: right;
@@ -927,6 +936,18 @@ width: 65px;
   font-style: normal;
   font-weight: 400;
   color:#9B9B9B !important;
+}
+
+@media screen and (max-width:1000px) {
+  #footer-widgets{
+
+  }
+  #nav_menu-3{
+
+  }
+  #nav_menu-3 .menu-menu-footer-container{
+    display: none;
+  }
 }
 
 .h3-numeros {
