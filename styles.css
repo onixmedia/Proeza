@@ -699,13 +699,23 @@ h4{
 
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
   .standard_section .dark .instance-0{
     display: none;
   }
   .standard_section .row-bg-wrap .using-image{
     background: #D41E2D;
     background-image: inherit !important;
+  }
+}
+@media only screen and (min-width: 1001px) {
+  .standard_section .row-bg-wrap .using-image{
+    background-position-x:30% !important;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .standard_section .row-bg-wrap .using-image{
+    background-position-x:0 !important;
   }
 }
 
