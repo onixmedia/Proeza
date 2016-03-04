@@ -97,6 +97,7 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
   font-size: 14px !important;
   color: #69737A;
 }
+
 #header-secondary-outer nav > ul > li > a{
   font-size: 12px !important;
 }
@@ -108,6 +109,31 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
 }
 #header-secondary-outer nav > ul > li > a{
   color: #D6A317;
+}
+
+@media screen and (min-width:1001px) {
+  header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
+    font-size: 13px !important;
+  }
+  header#top nav{
+    margin-top: 32px;
+  }
+  header#top .menu-top{
+    width: auto;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (min-width:1153px) {
+  #logo{
+    margin-top: 9px;
+  }
+  header#top nav{
+    margin-top: 30px;
+  }
 }
 
 .container-wrap {
