@@ -228,10 +228,27 @@ h4{
 }
 
 .listas-continuas li {
-  width: 20%;
   float: left;
   text-align: center;
   list-style: none !important;
+}
+@media screen and (min-width:320px) {
+  .listas-continuas li {
+    padding: 20px 12px;
+    width: 50%;
+  }
+}
+@media screen and (min-width:640px) {
+  .listas-continuas li {
+    padding: 6px 20px;
+    width: 31%;
+  }
+}
+@media screen and (min-width:1000px) {
+  .listas-continuas li {
+    padding: 0 10px;
+    width: 20%;
+  }
 }
 .contenido-listas {
     width: 100%;
@@ -436,25 +453,40 @@ h4{
 .bsn-opp{
   display: block;
   float: left;
-  margin-left: 1%;
-  width: 19%;
 }
-
+@media screen and (min-width:320px) {
+  .bsn-opp{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width:1000px) {
+  .bsn-opp{
+    margin-left: 1%;
+    width: 30%;
+  }
+}
+@media screen and (min-width:1200px) {
+  .bsn-opp{
+    width: 19%;
+  }
+}
 .logo-bsn-opp{
   border-radius: 10px 0 0 0;
   text-align: center;
-  padding: 20px;
+  min-height: 80px;
+  padding-top: 20px;
 }
 .logo-bsn-opp img{
   margin-bottom: 0 !important;
 }
 .logo-bsn-opp[data-color='blue']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36b2ff+0,253893+100 */
-background: #36b2ff; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #36b2ff 0%, #253893 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #36b2ff 0%,#253893 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #36b2ff 0%,#253893 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b2ff', endColorstr='#253893',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #36b2ff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #36b2ff 0%, #253893 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #36b2ff 0%,#253893 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #36b2ff 0%,#253893 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b2ff', endColorstr='#253893',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .logo-bsn-opp[data-color='green']{
@@ -467,48 +499,78 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b2ff', end
 }
 .logo-bsn-opp[data-color='iceblue']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b8ff+0,0075bd+98 */
-background: #00b8ff; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #00b8ff 0%, #0075bd 98%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #00b8ff 0%,#0075bd 98%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #00b8ff 0%,#0075bd 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8ff', endColorstr='#0075bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #00b8ff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #00b8ff 0%, #0075bd 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #00b8ff 0%,#0075bd 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #00b8ff 0%,#0075bd 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8ff', endColorstr='#0075bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .logo-bsn-opp[data-color='yellow']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff774+0,cda73b+98 */
-background: #fff774; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #fff774 0%, #cda73b 98%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #fff774 0%,#cda73b 98%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #fff774 0%,#cda73b 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff774', endColorstr='#cda73b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #fff774; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #fff774 0%, #cda73b 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #fff774 0%,#cda73b 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #fff774 0%,#cda73b 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff774', endColorstr='#cda73b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .logo-bsn-opp[data-color='orange']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9a30+0,ff8120+99 */
-background: #ff9a30; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #ff9a30 0%, #ff8120 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #ff9a30 0%,#ff8120 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #ff9a30 0%,#ff8120 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', endColorstr='#ff8120',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #ff9a30; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ff9a30 0%, #ff8120 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #ff9a30 0%,#ff8120 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #ff9a30 0%,#ff8120 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', endColorstr='#ff8120',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .img-bsn-opp{
   text-align: center;
   height: 107px;
   width: 100%;
+  overflow: hidden;
 }
+@media screen and (min-width:1200px) {
+  .img-bsn-opp{
+    height: 88px;
+  }
+}
+@media screen and (min-width:1340px) {
+  .img-bsn-opp{
+    height: 107px;
+  }
+}
+
 .img-bsn-opp img{
   width: 100% !important;
 }
 
 .txt-bsn-opp {
-  padding: 0px 20px 30px;
+  padding: 20px;
   border: solid 1px #ECECEC;
-  margin-top: -10px;
   border-radius: 0px 0px 10px;
-  padding-top: 0px;
+  min-height: 165px;
 }
 
+@media screen and (min-width:320px){
+  .txt-bsn-opp{
+    min-height: auto;
+  }
+}
+@media screen and (min-width:1000px){
+  .txt-bsn-opp{
+    min-height: 170px;
+  }
+}
+@media screen and (min-width:1200px){
+  .txt-bsn-opp{
+    min-height: 234px;
+  }
+}
+@media screen and (min-width:1400px){
+  .txt-bsn-opp{
+    min-height: 180px;
+  }
+}
 .txt-bsn-opp p{
-  padding-top: 15px;
   font-size: 14px;
   line-height: 19px;
   color:#69737A;
@@ -517,8 +579,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', end
   font-weight: 300;
 }
 
+.block-bsn-opp .bsn-opp:nth-child(2) .logo-bsn-opp img{
+  width: 150px;
+}
+
 .redondo{
-border-radius: 10px 0 10px 0px;
+  border-radius: 10px 0 10px 0px;
 }
 
 .programa-delta ul{
@@ -790,6 +856,7 @@ width: 65px;
  .block-top {padding: 30px 25px !important;}
  .img-block {position: relative; bottom: 37px;}
  .block-bottom {text-align:center;}
+ .unidades-negocio-texto {padding: 0%}
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 }
