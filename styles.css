@@ -930,6 +930,7 @@ width: 65px;
 .lenguaje-footer{
   width: 145px;
   margin: 0 auto;
+  display: none;
 }
 
 @media screen and (max-width:1000px) {
@@ -991,6 +992,9 @@ width: 65px;
 
  .stage{
    height:auto;
+ }
+ .lenguaje-footer{
+   display: block;
  }
 
 }
