@@ -528,6 +528,15 @@ h4{
 .bsn-opp:hover{
   opacity: 0.8;
 }
+
+div.wpcf7-mail-sent-ok{
+  border: none !important;
+}
+.wpcf7 .wpcf7-response-output{
+  background: none !important;
+  margin-left: 30px;
+  color: #5FBB66 !important;
+}
 @media screen and (min-width:320px) {
   .bsn-opp{
     width: 100%;
@@ -778,7 +787,9 @@ h4{
   float: left;
   margin-bottom: 20px;
 }
-
+.presencia {
+ color: #AD8100 ;
+}
 
 @media screen and (max-width:1000px) {
   .page-id-4 .standard_section .dark .instance-0,
@@ -983,6 +994,8 @@ width: 65px;
   width: 145px;
   margin: 0 auto;
   display: none;
+  position: relative;
+  top: -40px;
 }
 
 @media screen and (max-width:1000px) {
