@@ -77,14 +77,20 @@ ul{
   font-style: normal;
   font-weight: 700;
 }
+#lang_sel{
+  z-index: 9999 !important;
+}
 #lang_sel ul ul a:hover, .icl-es a:hover, .icl-en a:hover, #header-secondary-outer ul ul li:hover > a{
   color:#B38813 !important;
   }
 #lang_sel ul ul{
   border: none !important;
 }
-#lang_sel_click a:hover, #lang_sel a:hover,  #lang_sel ul ul a:visited, #header-secondary-outer ul ul li:hover > a{
+/*#lang_sel_click a:hover, #lang_sel a:hover,  #lang_sel ul ul a:visited, #header-secondary-outer ul ul li:hover > a{
   background: none !important;
+}*/
+#lang_sel ul ul a{
+  background: #eeeeee;
 }
 #lang_sel_click a.lang_sel_sel, #lang_sel a.lang_sel_sel{
   background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/arrow.png') !important;
