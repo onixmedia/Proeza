@@ -1086,7 +1086,7 @@ width: 65px;
  .img-block {position: relative; bottom: 37px;}
  .block-bottom {text-align:center;}
  .unidades-negocio-texto {padding: 0%}
-
+  h1 {font-size: 32px !important; line-height:36px;}
  .stage{
    height:auto;
  }
