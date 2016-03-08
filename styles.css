@@ -1,11 +1,29 @@
 /*Estilos Sitio Proeza ONIXMEDIA TEAM*/
-
 body{
   background: white !important;
   color: #69737A;
 }
 header{
   border-bottom: 4px solid #B48C1F;
+}
+header#top .sf-menu li ul li a{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 500;
+}
+.header-home{
+  width: 45%;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/line-cross.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: auto;
+  height: 570px;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  right: -30px;
 }
 ul{
   list-style: none;
@@ -25,13 +43,15 @@ ul{
 .lenguaje p{
   color:#D6A317;
   text-transform: uppercase;
-  font-family: 'Gotham-Medium',sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 500;
   font-size: 12px !important;
   display: block;
   float: left;
 }
 #logo{
-  margin-top: 25px;
+  margin-top: 20px;
 }
 #lang_sel_click{
   display: block;
@@ -41,7 +61,7 @@ ul{
   width: 100px;
 }
 .world{
-  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/idioma.png');
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/idioma.png');
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -53,7 +73,12 @@ ul{
   color:#D6A317 !important;
   font-size: 12px !important;
   text-transform: uppercase;
-  font-family: 'Gotham-Bold', sans-serif;;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 700;
+}
+#lang_sel{
+  z-index: 9999 !important;
 }
 #lang_sel ul ul a:hover, .icl-es a:hover, .icl-en a:hover, #header-secondary-outer ul ul li:hover > a{
   color:#B38813 !important;
@@ -61,11 +86,14 @@ ul{
 #lang_sel ul ul{
   border: none !important;
 }
-#lang_sel_click a:hover, #lang_sel a:hover,  #lang_sel ul ul a:visited, #header-secondary-outer ul ul li:hover > a{
+/*#lang_sel_click a:hover, #lang_sel a:hover,  #lang_sel ul ul a:visited, #header-secondary-outer ul ul li:hover > a{
   background: none !important;
+}*/
+#lang_sel ul ul a{
+  background: #eeeeee;
 }
 #lang_sel_click a.lang_sel_sel, #lang_sel a.lang_sel_sel{
-  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/arrow.png') !important;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/arrow.png') !important;
   background-repeat: no-repeat !important;
   background-position: right !important;
 }
@@ -73,10 +101,7 @@ ul{
   padding-top: 15px !important;
   box-shadow: none !important;
 }
-header#top #logo img{
-  width: 100% !important;
-  height: auto !important;
-}
+
 #header-secondary-outer{
   background:white;
   border-bottom: 1px solid white !important;
@@ -84,10 +109,13 @@ header#top #logo img{
 }
 header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
   text-transform: uppercase;
-  font-family: 'Gotham-Medium', sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px !important;
   color: #69737A;
 }
+
 #header-secondary-outer nav > ul > li > a{
   font-size: 12px !important;
 }
@@ -99,6 +127,56 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
 }
 #header-secondary-outer nav > ul > li > a{
   color: #D6A317;
+}
+
+@media screen and (max-width:1000px){
+  header#top .menu-top{
+    display: none;
+  }
+}
+
+@media screen and (min-width:1001px) {
+  header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
+    font-size: 13px !important;
+  }
+  header#top nav{
+    margin-top: 0;
+  }
+  header#top .menu-top{
+    width: auto;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 26px;
+  }
+}
+
+@media screen and (min-width:1153px) {
+  header#top .menu-top{
+    top:0;
+  }
+  #logo{
+    margin-top: 9px;
+  }
+  header#top nav{
+    margin-top: 30px;
+  }
+}
+
+#slide-out-widget-area .menuwrapper li{
+  margin:20px 0;
+}
+#slide-out-widget-area .inner .off-canvas-menu-container li a{
+  color: #69737A;
+  font-size: 14px;
+  font-family: "Gotham SSm A","Gotham SSm B";
+  text-transform: uppercase;
+}
+#slide-out-widget-area .inner .off-canvas-menu-container li a:hover{
+  color: #D6A317 !important;
+}
+body[data-full-width-header="false"].admin-bar #slide-out-widget-area a.slide_out_area_close{
+  top: 71px;
 }
 
 
@@ -122,13 +200,17 @@ header#top nav > ul > li > a, #header-secondary-outer nav > ul > li > a{
 .stage-xs{
   height:500px;
 }
-
+.nectar-slider-wrap[data-button-styling="btn_with_preview"] .swiper-container .slider-prev i, .nectar-slider-wrap[data-button-styling="btn_with_preview"] .swiper-container .slider-next i{
+  border: none !important;
+}
 p {
   font-size: 16px;
   line-height: 24px;
   color: #69737A;
   padding-bottom: 10px;
-  font-family: 'Gotham-Light';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
 }
 
 .p-georgia {
@@ -139,31 +221,41 @@ p {
 
 h1{
     font-size:48px;
-    font-family: 'GothamExLight';
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
     color: #ffffff;
     line-height: 50px;
 }
 h3{
     font-size:33px;
-    font-family: 'Gotham-Light';
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
     color: #ffffff;
 }
 h4{
     font-size:18px;
-    font-family: 'Gotham-Book';
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
     color: #E32237;
 }
 .p-titulo{
   font-size: 21px;
   color: #69737A;
-  font-family: 'Gotham-Book';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .h3-parrafo {
     color: white;
     text-shadow: 0 0 5px #4A4A4A;
     font-size: 21px;
-    font-family: 'Gotham-Book';
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
     line-height: 26px;
 }
 
@@ -181,12 +273,16 @@ h4{
     width: 100%;
 }
 .block-unete .block-top h1 {
-    font-family: 'GothamExLight';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
     font-size: 42px;
 }
 .block-unete .block-top h3{
   font-size: 24px;
-  font-family: 'GothamExLight';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
   color: #E0E0E0;
 }
 .block-unete .block-bottom{
@@ -204,10 +300,27 @@ h4{
 }
 
 .listas-continuas li {
-  width: 20%;
   float: left;
   text-align: center;
   list-style: none !important;
+}
+@media screen and (min-width:320px) {
+  .listas-continuas li {
+    padding: 20px 12px;
+    width: 50%;
+  }
+}
+@media screen and (min-width:640px) {
+  .listas-continuas li {
+    padding: 6px 20px;
+    width: 31%;
+  }
+}
+@media screen and (min-width:1000px) {
+  .listas-continuas li {
+    padding: 0 10px;
+    width: 20%;
+  }
 }
 .contenido-listas {
     width: 100%;
@@ -216,12 +329,16 @@ h4{
 }
 .h1-gradiente {
   font-size: 42px;
-  font-family: 'Gotham-Bold';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 700;
   line-height: 50px;
  }
  .h3-gradiente {
    font-size: 24px;
-   font-family: 'Gotham-Light';
+   font-family: "Gotham SSm A", "Gotham SSm B";
+   font-style: normal;
+   font-weight: 300;
    color: #00B8FF;
   }
  .gblue{
@@ -289,11 +406,13 @@ h4{
   background: -moz-linear-gradient(right, #fe923b, #ba640d); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #fe923b, #ba640d); /* Standard syntax (must be last) */
 }
-.boton-principal , .formulario-contacto input[type=submit], .ascend .container-wrap input[type="submit"], .ascend .container-wrap button[type="submit"]{
+.boton-principal , .swiper-slide .button a, .formulario-contacto input[type=submit], .ascend .container-wrap input[type="submit"], .ascend .container-wrap button[type="submit"]{
   border-radius: 10px 0px 10px !important;
   padding: 10px 20px !important;
   border: 0px !important;
-  font-family: 'Gotham-Bold' !important;
+  font-family: "Gotham SSm A", "Gotham SSm B" !important;
+  font-style: normal;
+  font-weight: 700;
   color: #FFFFFF;
   font-size: 14px;
   transition: all 0.5s ease;
@@ -337,7 +456,9 @@ h4{
   color: #ffffff;
 }
 .titulo-bold {
-  font-family: 'Gotham-Bold';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 700;
 }
 
 
@@ -360,14 +481,17 @@ h4{
 }
 .bloque-vision p{
   color: #69737A;
-  font-family: 'Gotham-Light';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
 }
 
-/* JC*/
 .titleStage{
   font-size: 64px;
   color: white;
-  font-family: 'Gotham-Light';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
 }
 .titleSection{
   position: relative;
@@ -378,7 +502,10 @@ h4{
 .titleSection h2{
   font-size: 42px;
   color:#69737A;
-  font-family: 'GothamExLight';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 47px;
   letter-spacing: -1px;
 }
 .titleSection a{
@@ -399,25 +526,62 @@ h4{
 .bsn-opp{
   display: block;
   float: left;
-  margin-left: 1%;
-  width: 19%;
+  opacity: 1;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+.bsn-opp:hover{
+  opacity: 0.8;
 }
 
+div.wpcf7-mail-sent-ok{
+  border: none !important;
+}
+.wpcf7 .wpcf7-response-output{
+  background: none !important;
+  margin-left: 30px;
+  color: #5FBB66 !important;
+}
+@media screen and (min-width:320px) {
+  .bsn-opp{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width:691px) {
+  .bsn-opp{
+    margin-left: 2%;
+    width: 48%;
+  }
+}
+@media screen and (min-width:1000px) {
+  .bsn-opp{
+    margin-left: 1%;
+    width: 30%;
+  }
+}
+@media screen and (min-width:1200px) {
+  .bsn-opp{
+    width: 19%;
+  }
+}
 .logo-bsn-opp{
   border-radius: 10px 0 0 0;
   text-align: center;
-  padding: 20px;
+  min-height: 80px;
+  padding-top: 20px;
 }
 .logo-bsn-opp img{
   margin-bottom: 0 !important;
 }
 .logo-bsn-opp[data-color='blue']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36b2ff+0,253893+100 */
-background: #36b2ff; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #36b2ff 0%, #253893 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #36b2ff 0%,#253893 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #36b2ff 0%,#253893 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b2ff', endColorstr='#253893',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #36b2ff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #36b2ff 0%, #253893 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #36b2ff 0%,#253893 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #36b2ff 0%,#253893 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b2ff', endColorstr='#253893',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .logo-bsn-opp[data-color='green']{
@@ -430,56 +594,106 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b2ff', end
 }
 .logo-bsn-opp[data-color='iceblue']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b8ff+0,0075bd+98 */
-background: #00b8ff; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #00b8ff 0%, #0075bd 98%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #00b8ff 0%,#0075bd 98%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #00b8ff 0%,#0075bd 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8ff', endColorstr='#0075bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #00b8ff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #00b8ff 0%, #0075bd 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #00b8ff 0%,#0075bd 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #00b8ff 0%,#0075bd 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8ff', endColorstr='#0075bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .logo-bsn-opp[data-color='yellow']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff774+0,cda73b+98 */
-background: #fff774; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #fff774 0%, #cda73b 98%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #fff774 0%,#cda73b 98%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #fff774 0%,#cda73b 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff774', endColorstr='#cda73b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #fff774; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #fff774 0%, #cda73b 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #fff774 0%,#cda73b 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #fff774 0%,#cda73b 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff774', endColorstr='#cda73b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .logo-bsn-opp[data-color='orange']{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9a30+0,ff8120+99 */
-background: #ff9a30; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #ff9a30 0%, #ff8120 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #ff9a30 0%,#ff8120 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #ff9a30 0%,#ff8120 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', endColorstr='#ff8120',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #ff9a30; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ff9a30 0%, #ff8120 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #ff9a30 0%,#ff8120 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #ff9a30 0%,#ff8120 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9a30', endColorstr='#ff8120',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .img-bsn-opp{
   text-align: center;
   height: 107px;
   width: 100%;
+  overflow: hidden;
 }
+@media screen and (min-width:1200px) {
+  .img-bsn-opp{
+    height: 88px;
+  }
+}
+@media screen and (min-width:1340px) {
+  .img-bsn-opp{
+    height: 107px;
+  }
+}
+
 .img-bsn-opp img{
   width: 100% !important;
 }
 
 .txt-bsn-opp {
-  padding: 0px 20px 30px;
+  padding: 20px;
   border: solid 1px #ECECEC;
-  margin-top: -10px;
   border-radius: 0px 0px 10px;
-  padding-top: 0px;
+  min-height: 165px;
 }
 
+@media screen and (min-width:320px){
+  .txt-bsn-opp{
+    min-height: auto;
+  }
+}
+@media screen and (min-width:691px) {
+  .txt-bsn-opp{
+    min-height: 145px;
+  }
+}
+@media screen and (min-width:1000px){
+  .txt-bsn-opp{
+    min-height: 170px;
+  }
+  .unidades-negocio-texto {
+    padding: 4% !important
+  }
+}
+@media screen and (min-width:1200px){
+  .header-home{
+    height: 477px;
+  }
+  .txt-bsn-opp{
+    min-height: 234px;
+  }
+}
+@media screen and (min-width:1400px){
+  .header-home{
+    height: 570px;
+  }
+  .txt-bsn-opp{
+    min-height: 165px;
+  }
+}
 .txt-bsn-opp p{
-  padding-top: 15px;
   font-size: 14px;
   line-height: 19px;
   color:#69737A;
-  font-family: 'GothamExLight';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.block-bsn-opp .bsn-opp:nth-child(2) .logo-bsn-opp img{
+  width: 150px;
 }
 
 .redondo{
-border-radius: 10px 0 10px 0px;
+  border-radius: 10px 0 10px 0px;
 }
 
 .programa-delta ul{
@@ -534,13 +748,13 @@ border-radius: 10px 0 10px 0px;
 
 .paises .nombre-pais{
   color:#848484;
-  font-family: 'Gotham-Bold';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
   margin: 0;
   line-height: 28px;
 }
-
-
 
 .paises .lines{
   border-bottom: 1px solid #D59F10;
@@ -579,18 +793,89 @@ border-radius: 10px 0 10px 0px;
   float: left;
   margin-bottom: 20px;
 }
+.presencia {
+ color: #AD8100 ;
+}
+
+@media screen and (max-width:1000px) {
+  .page-id-4 .standard_section .dark .instance-0,
+  .page-id-6 .standard_section .dark .instance-0,
+  .page-id-18 .standard_section .dark .instance-0,
+  .page-id-20 .standard_section .dark .instance-0,
+  .page-id-22 .standard_section .dark .instance-0,
+  .page-id-323 .standard_section .dark .instance-0{
+    display: none;
+  }
+  /* Oportunidad (aqua) */
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
+    background: #48636E;
+    background-image: inherit !important;
+  }
+  /* Folosofia y Contacto (rojo) */
+  .page-id-4 .standard_section .row-bg-wrap .using-image,
+  .page-id-22 .standard_section .row-bg-wrap .using-image{
+    background: #D41E2D;
+    background-image: inherit !important;
+  }
+  /* Historia (amarillo) */
+  .page-id-6 .standard_section .row-bg-wrap .using-image{
+    background: #C99B1C;
+    background-image: inherit !important;
+  }
+  .page-id-6 .stage-xs{
+    height: 300px;
+  }
+  /* Responsabilidad y Presencia (azul) */
+  .page-id-18 .standard_section .row-bg-wrap .using-image,
+  .page-id-20 .standard_section .row-bg-wrap .using-image{
+    background: #1454A4;
+    background-image: inherit !important;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .page-id-4 .standard_section .row-bg-wrap .using-image,
+  .page-id-18 .standard_section .row-bg-wrap .using-image,
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
+    background-position-x:30% !important;
+  }
+  .page-id-6 .standard_section .row-bg-wrap .using-image{
+    background-position-x:60% !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .page-id-4 .standard_section .row-bg-wrap .using-image,
+  .page-id-18 .standard_section .row-bg-wrap .using-image,
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
+    background-position-x:0 !important;
+  }
+  .page-id-6 .standard_section .row-bg-wrap .using-image{
+    background-position-x:50% !important;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .page-id-6 .standard_section .row-bg-wrap .using-image{
+    background-position-x:0% !important;
+  }
+}
 
 .flecha{
   width: 30px;
   height: 30px;
-  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-demo/wp-content/uploads/flecha.png');
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/flecha.png');
   background-position: 0 -28px;
   background-repeat: no-repeat;
   display: block;
 }
 .oficina {
   font-size: 16px !important;
-  font-family: 'Gotham-Medium',sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 500;
   padding-top: 10px;
   color: #848484;
   line-height: 24px;
@@ -598,7 +883,9 @@ border-radius: 10px 0 10px 0px;
 
 .paises .unidades {
   font-size: 14px;
-  font-family: 'Gotham-Medium',sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 500;
 }
 .paises .oficina{
     padding-top: 0px;
@@ -608,7 +895,9 @@ border-radius: 10px 0 10px 0px;
 }
 .paises .continente {
   font-size: 21px;
-  font-family: 'Gotham-Bold';
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 700;
 }
 
 .lines:before, .lines:after {
@@ -621,10 +910,62 @@ border-bottom: 1px solid #D59F10;
 width: 65px;
 }
 
+/*SLIDER*/
+.swiper-slide .content{
+  width: 60% !important;
+}
+.swiper-slide .content h2{
+  font-size: 72px !important;
+  line-height: 68px !important;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
+  text-shadow: 0px 0px 20px rgba(94, 128, 141, 1);
+}
+/*HISTORIA*/
+.block-historia{
+  position: relative;
+  top: -200px;
+  background: url('http://proeza.com.mx.c25.sitepreviewer.com/wp-content/uploads/timeline.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.txt-historia{
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+  color:#69737A;
+  margin-top: 40px;
+}
+.historia-item{
+  position: relative;
+  height: 300px;
+  text-align: center;
+}
+.historia-item img{
+  width: 100%;
+}
+.historia-item .year{
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  color: rgba(227, 34, 55, 1);
+  mix-blend-mode: multiply;
+  font-size: 130px;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -6px;
+}
 /*FOOTER*/
 #footer-outer{
   background-color: white !important;
   border-top: 4px solid #B48C1F;
+}
+#footer-outer .row{
+  padding: 40px 0 0 0;
+}
+#footer-outer #text-4{
+  margin: 0 !important;
 }
 #footer-outer #footer-widgets .col ul li{
   float: left;
@@ -638,12 +979,16 @@ width: 65px;
 }
 #footer-outer #footer-widgets .col ul li a{
   text-transform: uppercase;
-  font-family: 'Gotham-Medium',sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px !important;
   color: #69737A;
 }
 #footer-outer #footer-widgets .col ul li ul li a{
-  font-family: 'Gotham-Book', sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 400;
 }
 #footer-outer #footer-widgets .col ul li:first-child{
   padding-top: 4px !important;
@@ -651,6 +996,20 @@ width: 65px;
 #footer-outer .widget.widget_nav_menu ul ul{
   padding: 0 !important;
 }
+.lenguaje-footer{
+  width: 145px;
+  margin: 0 auto;
+  display: none;
+  position: relative;
+  top: -40px;
+}
+
+@media screen and (max-width:1000px) {
+  #footer-widgets #menu-menu-principal-1{
+    display: none;
+  }
+}
+
 .logo-footer{
   width: 250px;
   float: right;
@@ -669,22 +1028,75 @@ width: 65px;
   margin-top: 20px;
 }
 #nav_menu-3 .menu-menu-footer-container ul li a{
-  font-family: 'Gotham-Book', sans-serif !important;
+  font-family: "Gotham SSm A", "Gotham SSm B" !important;
+  font-style: normal;
+  font-weight: 400;
   color:#9B9B9B !important;
 }
 
-.h3-numeros {
-  font-family: 'Gotham-Bold' !important;
-  font-size: 28px !important;
+@media screen and (max-width:1000px) {
+  #nav_menu-3, .logo-footer,
+  #footer-widgets .container .row .span_12 {
+    width: 100%;
+    text-align:center;
+    margin:0;
+  }
+  #footer-outer #footer-widgets .col ul li{
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+  #footer-widgets{
+    padding-bottom: 30px;
+  }
+  #text-2 .logo-footer img{
+    display: inline-block;
+    float: none;
+    margin: 0 0 15px 0;
+  }
+  #footer-outer .widget{
+    margin-bottom: 0;
+  }
+  #text-2{
+    bottom:0;
+  }
+}
+@media screen and (min-width:1001px) {
+  #footer-outer #footer-widgets .col ul li a{
+    font-size: 11px !important;
+  }
+}
+@media screen and (min-width:1140px) {
+  #footer-outer #footer-widgets .col ul li a{
+    font-size: 14px !important;
+  }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){    
-  .h3-parrafo{font-size: 18px; line-height: 21px; text-align: left; margin: 0px -20px 0px -20px !important;}
-  .h3-numeros{font-size: 21px;}
-  .block-bottom { padding: 30px 20px !important;}
-  .block-top {padding: 30px 25px !important;}
-  .img-block {position: relative; bottom: 37px;}
+.h3-numeros {
+ font-family: 'Gotham-Bold' !important;
+ font-size: 28px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+ .h3-parrafo{font-size: 18px; line-height: 21px; text-align: left;}
+ .h3-numeros{font-size: 21px;}
+ .block-bottom { padding: 30px 20px !important;}
+ .block-top {padding: 30px 25px !important;}
+ .img-block {position: relative; bottom: 37px;}
+ .block-bottom {text-align:center;}
+ .unidades-negocio-texto {padding: 0%}
+
+ .stage{
+   height:auto;
+ }
+ .lenguaje-footer{
+   display: block;
+ }
+
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .stage{
+    height:auto;
+  }
 }
-
