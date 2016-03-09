@@ -1093,8 +1093,10 @@ width: 65px;
  .lenguaje-footer{
    display: block;
  }
+.historia-item .year {left: 0px; font-size: 100px; bottom:0px;}
+.historia-item {height: 180px;}
+.block-historia {background-position: top left; padding-left: 40px;}
 
-}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .stage{
     height:auto;
