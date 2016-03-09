@@ -179,7 +179,6 @@ body[data-full-width-header="false"].admin-bar #slide-out-widget-area a.slide_ou
   top: 71px;
 }
 
-
 .container-wrap {
   background-color: #ffffff !important;
 }
@@ -796,86 +795,6 @@ div.wpcf7-mail-sent-ok{
 .presencia {
  color: #AD8100 ;
 }
-
-@media screen and (max-width:1000px) {
-  .page-id-4 .standard_section .dark .instance-0,
-  .page-id-6 .standard_section .dark .instance-0,
-  .page-id-18 .standard_section .dark .instance-0,
-  .page-id-20 .standard_section .dark .instance-0,
-  .page-id-22 .standard_section .dark .instance-0,
-  .page-id-323 .standard_section .dark .instance-0,
-  .page-id-1216 .standard_section .dark .instance-0,
-  .page-id-1136 .standard_section .dark .instance-0,
-  .page-id-1679 .standard_section .dark .instance-0,
-  .page-id-1291 .standard_section .dark .instance-0,
-  {
-    display: none;
-  }
-  /* Oportunidad (aqua) */
-  .page-id-323 .standard_section .row-bg-wrap .using-image{
-    background: #48636E;
-    background-image: inherit !important;
-  }
-  /* Folosofia y Contacto (rojo) */
-  .page-id-4 .standard_section .row-bg-wrap .using-image,
-  .page-id-22 .standard_section .row-bg-wrap .using-image,
-  .page-id-1136 .standard_section .row-bg-wrap .using-image,
-  .page-id-1291 .standard_section .row-bg-wrap .using-image,
-  {
-    background: #D41E2D;
-    background-image: inherit !important;
-  }
-  /* Historia (amarillo) */
-  .page-id-6 .standard_section .row-bg-wrap .using-image,
-  .page-id-1679 .standard_section .row-bg-wrap .using-image
-  {
-    background: #C99B1C;
-    background-image: inherit !important;
-  }
-  .page-id-6 .stage-xs{
-    height: 300px;
-  }
-  /* Responsabilidad y Presencia (azul) */
-  .page-id-18 .standard_section .row-bg-wrap .using-image,
-  .page-id-20 .standard_section .row-bg-wrap .using-image,
-  .page-id-1216 .standard_section .row-bg-wrap .using-image,
-  .page-id-1170 .standard_section .row-bg-wrap .using-image
-  {
-    background: #1454A4;
-    background-image: inherit !important;
-  }
-}
-
-@media only screen and (min-width: 1001px) {
-  .page-id-4 .standard_section .row-bg-wrap .using-image,
-  .page-id-18 .standard_section .row-bg-wrap .using-image,
-  .page-id-20 .standard_section .row-bg-wrap .using-image,
-  .page-id-323 .standard_section .row-bg-wrap .using-image{
-    background-position-x:30% !important;
-  }
-  .page-id-6 .standard_section .row-bg-wrap .using-image{
-    background-position-x:60% !important;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .page-id-4 .standard_section .row-bg-wrap .using-image,
-  .page-id-18 .standard_section .row-bg-wrap .using-image,
-  .page-id-20 .standard_section .row-bg-wrap .using-image,
-  .page-id-323 .standard_section .row-bg-wrap .using-image{
-    background-position-x:0 !important;
-  }
-  .page-id-6 .standard_section .row-bg-wrap .using-image{
-    background-position-x:50% !important;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .page-id-6 .standard_section .row-bg-wrap .using-image{
-    background-position-x:0% !important;
-  }
-}
-
 .flecha{
   width: 30px;
   height: 30px;
@@ -1016,6 +935,89 @@ width: 65px;
   position: relative;
   top: -40px;
 }
+
+@media screen and (max-width:1000px) {
+  .page-id-4 .standard_section .dark .instance-0,
+  .page-id-6 .standard_section .dark .instance-0,
+  .page-id-18 .standard_section .dark .instance-0,
+  .page-id-20 .standard_section .dark .instance-0,
+  .page-id-22 .standard_section .dark .instance-0,
+  .page-id-323 .standard_section .dark .instance-0,
+  .page-id-1136 .standard_section .dark .instance-0,
+  .page-id-1291 .standard_section .dark .instance-0,
+  .page-id-1679 .standard_section .dark .instance-0,
+  .page-id-1216 .standard_section .dark .instance-0,
+  .page-id-1190 .standard_section .dark .instance-0,
+  .page-id-1170 .standard_section .dark .instance-0
+  {
+    display: none;
+  }
+  /* Oportunidad (aqua) */
+  .page-id-323 .standard_section .row-bg-wrap .using-image,
+  .page-id-1190 .standard_section .row-bg-wrap .using-image{
+    background: #48636E;
+    background-image: inherit !important;
+  }
+  /* Folosofia y Contacto (rojo) */
+  .page-id-4 .standard_section .row-bg-wrap .using-image,
+  .page-id-22 .standard_section .row-bg-wrap .using-image,
+  .page-id-1136 .standard_section .row-bg-wrap .using-image,
+  .page-id-1291 .standard_section .row-bg-wrap .using-image
+  {
+    background: #D41E2D;
+    background-image: inherit !important;
+  }
+  /* Historia (amarillo) */
+  .page-id-6 .standard_section .row-bg-wrap .using-image,
+  .page-id-1679 .standard_section .row-bg-wrap .using-image
+  {
+    background: #C99B1C;
+    background-image: inherit !important;
+  }
+  .page-id-6 .stage-xs{
+    height: 300px;
+  }
+  /* Responsabilidad y Presencia (azul) */
+  .page-id-18 .standard_section .row-bg-wrap .using-image,
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-1216 .standard_section .row-bg-wrap .using-image,
+  .page-id-1170 .standard_section .row-bg-wrap .using-image
+  {
+    background: #1454A4;
+    background-image: inherit !important;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .page-id-4 .standard_section .row-bg-wrap .using-image,
+  .page-id-18 .standard_section .row-bg-wrap .using-image,
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
+    background-position-x:30% !important;
+  }
+  .page-id-6 .standard_section .row-bg-wrap .using-image{
+    background-position-x:60% !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .page-id-4 .standard_section .row-bg-wrap .using-image,
+  .page-id-18 .standard_section .row-bg-wrap .using-image,
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-323 .standard_section .row-bg-wrap .using-image{
+    background-position-x:0 !important;
+  }
+  .page-id-6 .standard_section .row-bg-wrap .using-image{
+    background-position-x:50% !important;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .page-id-6 .standard_section .row-bg-wrap .using-image{
+    background-position-x:0% !important;
+  }
+}
+
 
 @media screen and (max-width:1000px) {
   #footer-widgets #menu-menu-principal-1{
