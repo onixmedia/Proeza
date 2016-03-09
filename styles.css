@@ -803,7 +803,12 @@ div.wpcf7-mail-sent-ok{
   .page-id-18 .standard_section .dark .instance-0,
   .page-id-20 .standard_section .dark .instance-0,
   .page-id-22 .standard_section .dark .instance-0,
-  .page-id-323 .standard_section .dark .instance-0{
+  .page-id-323 .standard_section .dark .instance-0,
+  .page-id-1216 .standard_section .dark .instance-0,
+  .page-id-1136 .standard_section .dark .instance-0,
+  .page-id-1679 .standard_section .dark .instance-0,
+  .page-id-1291 .standard_section .dark .instance-0,
+  {
     display: none;
   }
   /* Oportunidad (aqua) */
@@ -813,12 +818,17 @@ div.wpcf7-mail-sent-ok{
   }
   /* Folosofia y Contacto (rojo) */
   .page-id-4 .standard_section .row-bg-wrap .using-image,
-  .page-id-22 .standard_section .row-bg-wrap .using-image{
+  .page-id-22 .standard_section .row-bg-wrap .using-image,
+  .page-id-1136 .standard_section .row-bg-wrap .using-image,
+  .page-id-1291 .standard_section .row-bg-wrap .using-image,
+  {
     background: #D41E2D;
     background-image: inherit !important;
   }
   /* Historia (amarillo) */
-  .page-id-6 .standard_section .row-bg-wrap .using-image{
+  .page-id-6 .standard_section .row-bg-wrap .using-image,
+  .page-id-1679 .standard_section .row-bg-wrap .using-image
+  {
     background: #C99B1C;
     background-image: inherit !important;
   }
@@ -827,7 +837,10 @@ div.wpcf7-mail-sent-ok{
   }
   /* Responsabilidad y Presencia (azul) */
   .page-id-18 .standard_section .row-bg-wrap .using-image,
-  .page-id-20 .standard_section .row-bg-wrap .using-image{
+  .page-id-20 .standard_section .row-bg-wrap .using-image,
+  .page-id-1216 .standard_section .row-bg-wrap .using-image,
+  .page-id-1170 .standard_section .row-bg-wrap .using-image
+  {
     background: #1454A4;
     background-image: inherit !important;
   }
